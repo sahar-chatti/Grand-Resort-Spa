@@ -1,0 +1,88 @@
+.room-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .room-card h2 {
+    margin: 0 0 8px 0;
+    color: #2c3e50;
+  }
+  
+  .room-type {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin: 4px 0;
+  }
+  
+  .room-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2980b9;
+    margin: 8px 0;
+  }
+  
+  .room-description {
+    color: #34495e;
+    font-size: 0.9rem;
+    margin: 8px 0;
+  }
+  
+  .status-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
+  
+  .available {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+  }
+  
+  .unavailable {
+    background-color: #ffebee;
+    color: #c62828;
+  }
+  .room-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0;
+  }
+  
+  .feature-item {
+    background-color: #f8f9fa;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .room-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .room-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .room-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  .room-content {
+    padding: 16px;
+  }
+  

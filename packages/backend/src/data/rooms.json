@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Deluxe Ocean View",
+    "type": "Suite",
+    "price": 299,
+    "currency": "USD",
+    "availability": true,
+    "description": "Luxurious suite with panoramic ocean views",
+    "features": {
+      "bedType": "King",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Garden Suite",
+    "type": "Junior Suite",
+    "price": 199,
+    "currency": "USD",
+    "availability": true,
+    "description": "Peaceful suite overlooking our tropical gardens",
+    "features": {
+      "bedType": "Queen",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a"
+    ]
+  }
+]
